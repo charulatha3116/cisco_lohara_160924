@@ -54,6 +54,7 @@ def menu():
         salary=float(input('enter salary:'))
         salary_remove(salary)
         print(salaries)
+    
 
     elif choice==3:
         s=salary_sum()
